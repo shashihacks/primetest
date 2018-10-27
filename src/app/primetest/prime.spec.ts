@@ -1,4 +1,4 @@
-import { checkPrime,computePrimes } from "./compute";
+import { checkPrime,computePrimes } from "./prime";
 
 describe('Check Prime', () => {
     it('should return true if number is prime', () => {
