@@ -10,14 +10,16 @@ describe('Check Prime', () => {
 });
 
 describe('computePrimeNumbers', () => {
+    //check if number is contained in result
     it('should contain prime numbers only', () => {
         const result = computePrimes(1,10)
         expect(result).toContain(2);
         expect(result).toContain(3);
         expect(result).toContain(5);
         expect(result).toContain(7);
-        // expect(result).toEqual([2,3,5,7])
+     
     });
+    //check equality of contents of array
     it('should contain prime numbers only', () => {
         const result = computePrimes(1,10)
         let expectedNumbers = [2,3,5,7]
